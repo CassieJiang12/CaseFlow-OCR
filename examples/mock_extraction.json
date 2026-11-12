@@ -1,0 +1,65 @@
+{
+  "id": "05411962-8cf9-42d1-9e6e-2565a76dab48",
+  "created_at": "2026-11-09T15:36:08.139468+00:00",
+  "status": "validated",
+  "provider": "mock",
+  "model": null,
+  "fields": {
+    "case_number": {
+      "value": "DEMO-2026-0042",
+      "page": 1,
+      "quote": "Case Number: DEMO-2026-0042",
+      "verified": true,
+      "issue": null
+    },
+    "court_name": {
+      "value": "Willow County Training Court",
+      "page": 1,
+      "quote": "Court Name: Willow County Training Court",
+      "verified": true,
+      "issue": null
+    },
+    "plaintiff": {
+      "value": "Avery Stone",
+      "page": 1,
+      "quote": "Plaintiff: Avery Stone",
+      "verified": true,
+      "issue": null
+    },
+    "defendant": {
+      "value": "Cedar Labs LLC",
+      "page": 1,
+      "quote": "Defendant: Cedar Labs LLC",
+      "verified": true,
+      "issue": null
+    },
+    "document_title": {
+      "value": "Civil Complaint",
+      "page": 1,
+      "quote": "Document Title: Civil Complaint",
+      "verified": true,
+      "issue": null
+    },
+    "filing_date": {
+      "value": "2026-10-22",
+      "page": 1,
+      "quote": "Filing Date: 2026-10-22",
+      "verified": true,
+      "issue": null
+    }
+  },
+  "pages": [
+    {
+      "number": 1,
+      "text": "CASEFLOW TRAINING DOCUMENT\nCase Number: DEMO-2026-0042\n\nCourt Name: Willow County Training Court\nPlaintiff: Avery Stone\n\nDefendant: Cedar Labs LLC\n\nDocument Title: Civil Complaint\n\nFiling Date: 2026-10-22\n\nFictional training document. No court filing."
+    }
+  ],
+  "warnings": [],
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "complete": true
+  },
+  "estimated_cost_usd": 0.0,
+  "latency_ms": 407.04
+}

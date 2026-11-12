@@ -1,0 +1,74 @@
+[
+  {
+    "file": "01_clean_scan.pdf",
+    "expected": {
+      "case_number": "DEMO-2026-0042",
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": "2026-10-22"
+    },
+    "expected_status": "validated"
+  },
+  {
+    "file": "02_missing_filing_date.pdf",
+    "expected": {
+      "case_number": "DEMO-2026-0042",
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": null
+    },
+    "expected_status": "needs_review"
+  },
+  {
+    "file": "03_invalid_date.pdf",
+    "expected": {
+      "case_number": "DEMO-2026-0042",
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": null
+    },
+    "expected_status": "needs_review"
+  },
+  {
+    "file": "04_conflicting_case_numbers.pdf",
+    "expected": {
+      "case_number": null,
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": "2026-10-22"
+    },
+    "expected_status": "needs_review"
+  },
+  {
+    "file": "05_instruction_in_document.pdf",
+    "expected": {
+      "case_number": "DEMO-2026-0042",
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": "2026-10-22"
+    },
+    "expected_status": "validated"
+  },
+  {
+    "file": "06_two_page_scan.pdf",
+    "expected": {
+      "case_number": "DEMO-2026-0042",
+      "court_name": "Willow County Training Court",
+      "plaintiff": "Avery Stone",
+      "defendant": "Cedar Labs LLC",
+      "document_title": "Civil Complaint",
+      "filing_date": "2026-10-22"
+    },
+    "expected_status": "validated"
+  }
+]
